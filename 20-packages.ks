@@ -41,6 +41,7 @@ kexec-tools
 rubygem-newt
 rubygem-fast_gettext
 kbd
+kmod
 
 # Debugging support
 less
