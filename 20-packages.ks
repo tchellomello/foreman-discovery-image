@@ -73,6 +73,7 @@ shim
 grub2-efi-x64
 grub2-efi-x64-cdboot
 shim-x64
+kmod
 
 # tools that enable the image installer plugin
 parted
