@@ -18,7 +18,6 @@ rm -rf /lib/modules/*/kernel/drivers/misc/mei
 # See https://bugzilla.redhat.com/show_bug.cgi?id=1335830
 echo " * remove some video drivers to prevent kexec isues"
 rm -rf /lib/modules/*/kernel/drivers/gpu/drm \
-  /lib/modules/*/kernel/drivers/video/fbdev \
   /lib/firmware/{amdgpu,radeon}
 
 echo " * remove unused drivers (sound, media, nls)"
